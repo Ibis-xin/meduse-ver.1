@@ -1,0 +1,68 @@
+@import "../set/page.scss";
+@import "../set/font.scss";
+@import "../set/color.scss";
+* {
+    //border: solid 2px black;
+    text-align: center;
+    margin: 0px;
+    background-color: $color-main;
+}
+
+.header {
+    padding: $padding-main;
+    height: 3em;
+}
+
+.center {
+    //border: solid 3px red;
+    .index {
+        position: relative;
+        aspect-ratio: 3/2;
+        margin: $margin-main;
+        .lead {
+            margin: 5em 0em;
+            
+        }
+    }
+    .home {
+        position: relative;
+        aspect-ratio: 3/2;
+        margin: $margin-main;
+        
+    }
+    .about {
+        position: relative;
+        aspect-ratio: 3/2;
+        margin: $margin-main;
+        .feature {
+            margin: 3em 0em;
+            height: 10em;
+            width: auto;
+        }
+    }
+    .more {
+        position: relative;
+        aspect-ratio: 3/2;
+        margin: $margin-main;
+        .menu {
+            font-family: $font-title;
+            font-weight: $font-weight-subtitle;
+            color: $color-font;
+        }
+    }
+    .source {
+        position: relative;
+        aspect-ratio: 3/2;
+        margin: $margin-main;
+        .author {
+            font-family: $font-title;
+            font-weight: $font-weight-subtitle;
+            color: $color-font;
+        }
+    }
+}
+
+.footer {
+    padding: $padding-main;
+    height: 5em;
+}
